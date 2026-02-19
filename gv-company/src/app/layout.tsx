@@ -5,41 +5,40 @@ import WhatsAppButton from "@/components/layout/WhatsAppButton";
 
 export const metadata: Metadata = {
   title: {
-    default: "GV&Co™ — Branding & Systems for Retail & Small Biz | Bangalore",
+    default: "GV&Co™ — Branding & Digital Operations Studio | Bangalore",
     template: "%s | GV&Co™",
   },
   description:
-    "GV&Co helps retail shops, distributors, and small businesses in Bangalore look professional, organize inventory, and sell more.",
+    "GV&Co helps restaurants, hotels, retail shops and local businesses in India grow through sharp branding, powerful websites and digital operations that actually work.",
   keywords: [
-    "retail branding",
-    "inventory management",
-    "small business website",
-    "bangalore digital agency",
-    "POS systems",
-    "distributor marketing",
+    "branding studio Bangalore",
+    "digital operations",
+    "small business branding",
+    "restaurant branding India",
+    "retail branding Bangalore",
+    "business website Bangalore",
   ],
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     type: "website",
     locale: "en_IN",
     url: "https://gvandco.in",
-    siteName: "GV&Co",
-    title: "GV&Co™ — Branding & Systems for Retail & Small Biz",
+    siteName: "GV&Co™",
+    title: "GV&Co™ — Branding & Digital Operations Studio, Bangalore",
     description:
-      "Helping retailers and distributors in Bangalore look professional and run efficiently.",
-    images: [
-      {
-        url: "/images/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "GV&Co — Retail & Small Business Solutions",
-      },
-    ],
+      "We help restaurants, hotels, retail shops and local businesses in India grow through sharp branding, powerful websites and digital operations that actually work.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "GV&Co™ — Branding & Systems for Retail & Small Biz",
+    title: "GV&Co™ — Branding & Digital Operations Studio, Bangalore",
     description:
-      "Helping retailers and distributors in Bangalore look professional and run efficiently.",
+      "We help restaurants, hotels, retail shops and local businesses in India grow through sharp branding, powerful websites and digital operations that actually work.",
   },
   robots: {
     index: true,
